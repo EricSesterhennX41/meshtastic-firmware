@@ -2171,8 +2171,8 @@ bool NodeDB::restorePreferences(meshtastic_AdminMessage_BackupLocation location,
     } else if (location == meshtastic_AdminMessage_BackupLocation_SD) {
         // TODO: After more mainline SD card support
     }
-#endif
     return success;
+#endif
 }
 
 /// Record an error that should be reported via analytics
